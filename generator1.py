@@ -6,7 +6,6 @@ widths = [2, 5, 8]
 
 counter = 1
 for i in range(3):
-
     for _ in range(widths[i]):
         print('{:^77}'.format(sign*counter))
         print()
